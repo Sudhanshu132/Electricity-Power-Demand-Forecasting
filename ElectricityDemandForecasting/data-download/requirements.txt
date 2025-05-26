@@ -1,0 +1,11 @@
+pandas
+matplotlib
+requests
+python-dateutil
+python-dotenv
+openpyxl
+certifi
+charset-normalizer
+idna
+six
+urllib3
