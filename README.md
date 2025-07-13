@@ -28,21 +28,18 @@ This project provides a **complete end-to-end pipeline for forecasting electrici
 ---
 
 ## 📁 Directory Structure
-
+'''
 project-root/
-├── MainStart.py # Orchestrates the full pipeline
-├── DataDownload.py # Downloads AEMO datasets based on date range
-├── DataCombine.py # Combines and sorts CSV files chronologically
-├── DataFilterHour.py # Resamples data to hourly and interpolates missing values
-├── Sarimamodel5.py # Applies SARIMA, shows GUI, exports forecast
-├── Contents/ # LaTeX chapters for documentation
-├── Documents/ # Bibliography and references
-├── Images/ # PNG and diagram assets
-└── .env # Configuration file for region and time span
-
-yaml
-Copy
-Edit
+├── MainStart.py              # Orchestrates the full pipeline
+├── DataDownload.py           # Downloads AEMO datasets based on date range
+├── DataCombine.py            # Combines and sorts CSV files chronologically
+├── DataFilterHour.py         # Resamples data to hourly and interpolates missing values
+├── Sarimamodel5.py           # Applies SARIMA, shows GUI, exports forecast
+├── Contents/                 # LaTeX chapters for documentation
+├── Documents/                # Bibliography and references
+├── Images/                   # PNG and diagram assets
+└── .env                      # Configuration file for region and time span
+'''
 
 ---
 
